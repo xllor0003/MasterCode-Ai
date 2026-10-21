@@ -41,6 +41,27 @@ bittiğinde yapılandırılmış yedek modele geçerek göreve devam eder.
 | 🎨 Kişiselleştirme | Animasyonlu açılış, renk temaları ve kalite profilleri |
 | 💻 29 dil | Python, JavaScript, Lua, Java, C/C++, C#, Go, Rust ve daha fazlası |
 
+## 🖼️ Arayüzden görüntüler
+
+### Akıllı çalışma alanı
+
+Model seçimi, canlı metrikler, renk temaları ve AI sohbet alanı tek ekranda.
+
+![Master Kodlama Terminali çalışma alanı](docs/images/workspace.png)
+
+### Model havuzu
+
+Yerel ve çevrim içi sağlayıcıları görüntüleyin, OpenRouter bağlayın ve yedek
+model zincirinizi yönetin.
+
+![Master Kodlama Terminali model havuzu](docs/images/model-pool.png)
+
+### Proje tanıtımı ve özellikler
+
+Terminalin yetenekleri, güvenlik yaklaşımı ve proje bilgileri.
+
+![Master Kodlama Terminali hakkında sayfası](docs/images/about.png)
+
 ## 🚀 Windows kurulumu
 
 1. GitHub sayfasından projeyi ZIP olarak indirin ve klasöre çıkarın.
