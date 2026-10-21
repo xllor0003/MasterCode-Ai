@@ -1,17 +1,47 @@
-# MASTER Kodlama Terminali v8.0
+<div align="center">
 
-**Kurucu: xllor**
+# 🔥 MASTER KODLAMA TERMİNALİ
+
+### Çoklu yapay zekâ destekli yeni nesil kodlama çalışma alanı
+
+![Version](https://img.shields.io/badge/version-8.0-8A2BE2?style=for-the-badge)
+![Platform](https://img.shields.io/badge/platform-Windows-0078D4?style=for-the-badge&logo=windows)
+![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/license-Proprietary-FF3B6B?style=for-the-badge)
+
+**Kurucu: `xllor`**
+
+`Kod üret • Projeyi incele • Test et • Hataları düzelt • Model değiştir`
+
+</div>
+
+---
 
 Master Kodlama Terminali; yapay zekâ modellerini, proje dosyalarını ve
 geliştirici araçlarını tek bir yerel çalışma alanında birleştirir. Kod üretir,
 projeyi inceler, dosya düzenler, test çalıştırır, hataları düzeltir ve kota
 bittiğinde yapılandırılmış yedek modele geçerek göreve devam eder.
 
-> **!! ÖNEMLİ: Bu projeyle yapılan işlemlerden kullanıcı sorumludur. Proje
-> kurucusu ve geliştiricileri, kullanıcıların yaptığı işlemlerden ve ortaya
-> çıkabilecek sonuçlardan sorumluluk kabul etmez. !!**
+> [!CAUTION]
+> **!! ÖNEMLİ SORUMLULUK AÇIKLAMASI !!**  
+> Bu projeyle yapılan işlemlerden kullanıcı sorumludur. Proje kurucusu ve
+> geliştiricileri, kullanıcıların yaptığı işlemlerden ve ortaya çıkabilecek
+> sonuçlardan sorumluluk kabul etmez.
 
-## Windows kurulumu
+## ✨ Öne çıkan özellikler
+
+| Özellik | Açıklama |
+|---|---|
+| 🤖 Çoklu model | Gemini, OpenRouter, Groq, OpenAI, Claude, LM Studio ve daha fazlası |
+| 🔁 Akıllı yedekleme | Kota veya bağlantı sorunu olduğunda başka modele otomatik geçiş |
+| 🧠 Kodlama ajanı | Planlar, dosya yazar, çalıştırır, test eder ve düzeltir |
+| 🗺️ Proje zekâsı | Dosya haritasını çıkarır ve görevle ilgili bağlamı seçer |
+| 🔐 Güvenli anahtarlar | API anahtarlarını Windows hesabına bağlı şifreli kasada saklar |
+| 🌐 Web paneli | Model havuzu, dosyalar, terminal, ayarlar ve komut merkezi |
+| 🎨 Kişiselleştirme | Animasyonlu açılış, renk temaları ve kalite profilleri |
+| 💻 29 dil | Python, JavaScript, Lua, Java, C/C++, C#, Go, Rust ve daha fazlası |
+
+## 🚀 Windows kurulumu
 
 1. GitHub sayfasından projeyi ZIP olarak indirin ve klasöre çıkarın.
 2. Bilgisayarda [Python 3.10 veya daha yeni bir sürüm](https://www.python.org/downloads/)
@@ -25,7 +55,7 @@ bittiğinde yapılandırılmış yedek modele geçerek göreve devam eder.
 Kurulum sırasında API anahtarı istenmez. Anahtarlar daha sonra kullanıcının kendi
 bilgisayarındaki şifreli kasaya kaydedilir.
 
-## Elle kurulum ve başlatma
+## 🛠️ Elle kurulum ve başlatma
 
 ```powershell
 python -m pip install -r requirements.txt
@@ -74,7 +104,7 @@ LM Studio için seçim de manueldir:
 /model qwen2.5-coder-7b-instruct-uncensored
 ```
 
-## Çoklu model sağlayıcısı
+## 🤖 Çoklu model sağlayıcısı
 
 Terminal LM Studio, Gemini, Groq, OpenRouter, Mistral,
 Cerebras, Together, DeepSeek, OpenAI ve Anthropic Claude bağlantılarını destekler.
@@ -99,7 +129,7 @@ değişkenlerini de kullanabilirsiniz. Anahtar durumunu `/apikey status`, silmey
 Listede olmayan OpenAI uyumlu bir servis için `/apikey set custom`, ardından
 `/provider custom https://servis-adresi/v1` ve `/model <model-id>` kullanın.
 
-## Kota bitince otomatik model geçişi
+## 🔁 Kota bitince otomatik model geçişi
 
 Anahtarlar `.terminal_keys.json` dosyasında Windows hesabına bağlı DPAPI
 şifrelemesiyle tutulur; düz metin değildir ve Git tarafından yok sayılır.
@@ -122,7 +152,7 @@ değiştirebilirsiniz.
 ve Anthropic API kullanımı genellikle ücretlidir; ChatGPT veya Claude aboneliği
 API kredisi anlamına gelmez.
 
-## Web arayüzü
+## 🌐 Web arayüzü
 
 ```text
 /werb on
@@ -133,7 +163,7 @@ komut kılavuzu birlikte çalışır. Model Havuzu sayfasından OpenRouter anaht
 şifreli kasaya bağlanabilir, `openrouter/free` etkinleştirilebilir ve yedek model
 zincirine eklenebilir. Arayüz yalnızca `127.0.0.1` üzerinde açılır.
 
-## Daha dikkatli kodlama
+## 🧠 Daha dikkatli kodlama
 
 Bu çalışma alanında **titiz** profili etkinleştirildi. Doğrudan isteğinizi yazın:
 
@@ -162,7 +192,7 @@ Proje bağlamı `/set repo_map_kullan evet`, içerik bütçesi `/set baglam_butc
 ile ayarlanabilir. Modelin görmesini istediğiniz dosyaları `/context add dosya.py`
 ile ayrıca ekleyebilirsiniz.
 
-## Hız ve model rotası
+## ⚡ Hız ve model rotası
 
 Varsayılan `hizli` profil, 7B kod modelini kullanır ve normal kod isteğinde ayrı
 plan/son-inceleme çağrıları yapmaz. Üretim ekrana token geldikçe yazılır. Proje
@@ -181,7 +211,7 @@ haritası her isteğe bütünüyle kopyalanmaz; göreve ilişkin güncel dosyala
 yükleme süresi oluşturabileceğini unutmayın. `text-embedding-nomic-embed-text-v1.5`
 kod yazmaz; yalnız isteğe bağlı anlamsal aramada kullanılır.
 
-## Yerel kod araçları
+## 🧰 Yerel kod araçları
 
 ```text
 /tools auto
@@ -198,7 +228,7 @@ Anlamsal arama varsayılan olarak kapalıdır; açıldığında embedding modeli
 ilk aramada ek bekleme ve bellek kullanımı oluşturabilir. Araç protokolü `auto`
 olduğunda model native araç çağrısı üretemezse eski direktif ajanına geçilir.
 
-## Yaz, çalıştır, düzelt
+## 🧪 Yaz, çalıştır, düzelt
 
 ```text
 /agent -a 15 cikti/app.py dosyasını geliştir ve test et
@@ -233,7 +263,7 @@ başarılı olduğu anlamına gelmez. Son inceleme en fazla dört dosyayı incel
 12.000 karakterden büyük dosyalar bu incelemeye alınmaz. Doğrulama kapsamı
 kurulu araçlara ve desteklenen dosya türlerine bağlıdır.
 
-## Geliştirme testleri
+## ✅ Geliştirme testleri
 
 Model sunucusu olmadan regresyon testlerini çalıştırmak için:
 
